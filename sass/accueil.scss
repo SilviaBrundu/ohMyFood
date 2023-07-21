@@ -1,3 +1,10 @@
-p {
-    color: beige;
+@import "./utils/variables";
+@import "./layouts/header";
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
