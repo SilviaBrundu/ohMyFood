@@ -1,5 +1,19 @@
-p {
-  color: beige;
+.logo {
+  width: 185px;
+  padding: 15px 0;
+}
+@media screen and (min-width: 600px) {
+  .logo {
+    width: 200px;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=accueil.css.map */
