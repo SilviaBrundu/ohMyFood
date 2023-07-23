@@ -2,25 +2,51 @@ footer {
     background-color: $background-footer;
     color: $txt-footer;
 
-    .logo-footer {
+    @media screen and (min-width: 600px) {
+    display: flex;
+    flex-direction: row-reverse;
+    }
+
+    .footer-content {
+        padding-left: 35px;
+
+        @media screen and (min-width: 600px) {
+            display: flex;
+        }
+    }
+
+    .footer-logo {
         font-family: 'Shrikhand', sans-serif;
-        padding: 20px 0 0 37px;
-    }
+        padding: 20px 0 20px 35px;
+        letter-spacing: 0.5px;
 
-    ul {
-        list-style-type: none;
+        @media screen and (min-width: 600px){
+            padding: 54px 56px 20px 52px
+        }
     }
-}
-
-li {
 
     a {
         color: $txt-footer;
         line-height: 25px;
     }
+}
 
-    .icon-footer {
-        color: $icon-footer;
-        margin-right: 10px;
+.icon-footer {
+    color: $icon-footer;
+    margin-right: 10px;
+}
+
+.list1, .list2 {
+
+    @media screen and (min-width: 600px){
+    display: flex;
+    padding: 60px 56px 25px 0;   
+    }
+    
+    p {
+
+        @media screen and (min-width: 600px) {
+            padding-right: 15px;
+        }
     }
 }

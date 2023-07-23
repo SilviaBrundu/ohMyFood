@@ -49,14 +49,14 @@ body {
     padding: 50px 20px;
 
     @media screen and (min-width: 600px) {
-        padding: 50px 150px;
+        padding: 35px 180px;
     }
 
     &_card {
         @media screen and (min-width: 600px) {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 40px 80px;
+            gap: 40px 100px;
         }
     }
 

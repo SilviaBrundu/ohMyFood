@@ -20,21 +20,50 @@ footer {
   background-color: #353535;
   color: white;
 }
-footer .logo-footer {
+@media screen and (min-width: 600px) {
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+footer .footer-content {
+  padding-left: 35px;
+}
+@media screen and (min-width: 600px) {
+  footer .footer-content {
+    display: flex;
+  }
+}
+footer .footer-logo {
   font-family: "Shrikhand", sans-serif;
-  padding: 20px 0 0 37px;
+  padding: 20px 0 20px 35px;
+  letter-spacing: 0.5px;
 }
-footer ul {
-  list-style-type: none;
+@media screen and (min-width: 600px) {
+  footer .footer-logo {
+    padding: 54px 56px 20px 52px;
+  }
 }
-
-li a {
+footer a {
   color: white;
   line-height: 25px;
 }
-li .icon-footer {
+
+.icon-footer {
   color: white;
   margin-right: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .list1, .list2 {
+    display: flex;
+    padding: 60px 56px 25px 0;
+  }
+}
+@media screen and (min-width: 600px) {
+  .list1 p, .list2 p {
+    padding-right: 15px;
+  }
 }
 
 /* GENERAL */
@@ -81,14 +110,14 @@ body {
 }
 @media screen and (min-width: 600px) {
   .restaurants {
-    padding: 50px 150px;
+    padding: 35px 180px;
   }
 }
 @media screen and (min-width: 600px) {
   .restaurants_card {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px 80px;
+    gap: 40px 100px;
   }
 }
 .restaurants img {
