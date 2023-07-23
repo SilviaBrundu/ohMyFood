@@ -2,6 +2,11 @@
 @import "./layouts/header";
 
 /* GENERAL */
+
+* {
+    font-family: $font-family-general;
+}
+
 a {
     text-decoration: none;
     color: $txt-color;
@@ -27,8 +32,8 @@ body {
     background-color: $background-loc;
     padding: 25px 0;
 
-    .iconedot {
-        color: $icone-dot;
+    .icondot {
+        color: $icon-dot;
         display: flex ;
         justify-content: center;
     }
@@ -45,8 +50,6 @@ body {
     @media screen and (min-width: 600px) {
         padding: 50px 150px;
     }
-
-    
 
     &_card {
         @media screen and (min-width: 600px) {
@@ -73,6 +76,10 @@ body {
     }
 }
 
+.section-title {
+    margin: 20px 0 40px 0 ;
+}
+
 .card_content {
     width: 100%;
     padding: 15px 30px 15px 15px;
@@ -83,4 +90,10 @@ body {
     background-color: $background-cardcontent;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+
+    .iconheart {
+        color: $icon-heart;
+        display: flex;
+        align-items: center;
+    }
 }
