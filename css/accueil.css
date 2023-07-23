@@ -1,6 +1,7 @@
 /* BACKGROUND COLOR */
 /* TEXT COLOR */
 /* TEXT DECORATION */
+/* ICON COLOR */
 header {
   margin: 15px 0;
   display: flex;
@@ -13,6 +14,27 @@ header .logo {
   header .logo {
     width: 200px;
   }
+}
+
+footer {
+  background-color: #353535;
+  color: white;
+}
+footer .logo-footer {
+  font-family: "Shrikhand", sans-serif;
+  padding: 20px 0 0 37px;
+}
+footer ul {
+  list-style-type: none;
+}
+
+li a {
+  color: white;
+  line-height: 25px;
+}
+li .icon-footer {
+  color: white;
+  margin-right: 10px;
 }
 
 /* GENERAL */

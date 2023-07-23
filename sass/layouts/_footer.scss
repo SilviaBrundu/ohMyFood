@@ -1,0 +1,26 @@
+footer {
+    background-color: $background-footer;
+    color: $txt-footer;
+
+    .logo-footer {
+        font-family: 'Shrikhand', sans-serif;
+        padding: 20px 0 0 37px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}
+
+li {
+
+    a {
+        color: $txt-footer;
+        line-height: 25px;
+    }
+
+    .icon-footer {
+        color: $icon-footer;
+        margin-right: 10px;
+    }
+}
