@@ -1,9 +1,12 @@
+header{
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    
+    .logo {
+        width: 185px;
 
-.logo {
-    width: 185px;
-    padding: 15px 0;
-
-    @media screen and (min-width: 600px) { 
-        width: 200px;  
+        @media screen and (min-width: 600px) { 
+            width: 200px;  
     }
-}
+}}
