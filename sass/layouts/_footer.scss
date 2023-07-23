@@ -37,14 +37,12 @@ footer {
 }
 
 .list1, .list2 {
-
     @media screen and (min-width: 600px){
     display: flex;
     padding: 60px 29px 25px 0;   
     }
     
     p {
-
         @media screen and (min-width: 600px) {
             padding-right: 15px;
         }
