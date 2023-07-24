@@ -1,5 +1,6 @@
 @import "./utils/variables";
 @import "./layouts/header";
+@import "./composants/button";
 @import "./composants/card";
 @import "./layouts/footer";
 
@@ -44,11 +45,12 @@ body {
     }
 }
 
+
 /* STEPS BTN */
 
 .steps {
 
-    padding: 47px 20px;
+    padding: 30px 20px;
 
     &_number {
         display: flex;
@@ -82,3 +84,10 @@ body {
         color: $icon-steps2;
     }
     }
+
+/* .steps_number {
+    position: absolute;
+    margin: 23px 46px -13px -11px;
+}*/
+
+

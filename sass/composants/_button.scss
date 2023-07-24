@@ -1,0 +1,36 @@
+/* EXPLORATION */
+
+.exploration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 47px 53px 47px;
+    background-color: $background-general;
+
+    @media screen and (min-width: 600px) {
+        padding-bottom: 30px;
+    }
+    
+    h2 {
+        text-align: center;
+        
+        @media screen and (min-width: 600px) {
+            font-size: 40px;
+        }
+    }
+
+    p {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    &_button {
+        display: flex;
+        background: linear-gradient( #FF79DA,#9356DC);
+        color: $txt-button-exploration;
+        border-radius: 55px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        padding: 15px;
+    }
+}

@@ -16,11 +16,46 @@ header .logo {
   }
 }
 
+/* EXPLORATION */
+.exploration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 47px 53px 47px;
+  background-color: #F6F6F6;
+}
+@media screen and (min-width: 600px) {
+  .exploration {
+    padding-bottom: 30px;
+  }
+}
+.exploration h2 {
+  text-align: center;
+}
+@media screen and (min-width: 600px) {
+  .exploration h2 {
+    font-size: 40px;
+  }
+}
+.exploration p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.exploration_button {
+  display: flex;
+  background: linear-gradient(#FF79DA, #9356DC);
+  color: white;
+  border-radius: 55px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+}
+
 .restaurants {
   display: flex;
   flex-direction: column;
   background-color: #F6F6F6;
-  padding: 50px 20px;
+  padding: 30px 20px;
 }
 @media screen and (min-width: 600px) {
   .restaurants {
@@ -156,7 +191,7 @@ body {
 
 /* STEPS BTN */
 .steps {
-  padding: 47px 20px;
+  padding: 30px 20px;
 }
 .steps_number {
   display: flex;
@@ -185,5 +220,10 @@ body {
 .steps_content .steps_icon2 {
   color: #9356DC;
 }
+
+/* .steps_number {
+    position: absolute;
+    margin: 23px 46px -13px -11px;
+}*/
 
 /*# sourceMappingURL=accueil.css.map */
