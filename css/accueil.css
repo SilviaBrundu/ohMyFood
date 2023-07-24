@@ -50,10 +50,6 @@ header .logo {
   }
 }
 
-.section-title {
-  margin: 20px 0 40px 0;
-}
-
 .card_content {
   width: 100%;
   padding: 15px 30px 15px 15px;
@@ -143,6 +139,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.section-title {
+  margin: 20px 0 30px 0;
+}
+
 /* localisation*/
 .localisation {
   background-color: #EAEAEA;
@@ -152,6 +152,38 @@ body {
   color: #000000;
   display: flex;
   justify-content: center;
+}
+
+/* STEPS BTN */
+.steps {
+  padding: 47px 20px;
+}
+.steps_number {
+  display: flex;
+  justify-content: center;
+  background-color: #9356DC;
+  color: white;
+  width: 27px;
+  border-radius: 50px;
+}
+.steps_diff {
+  display: flex;
+  flex-direction: column;
+}
+
+.steps_content {
+  display: flex;
+  flex-direction: Row;
+  background-color: #F6F6F6;
+  border-radius: 25px;
+  padding: 25px 0 25px 40px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+}
+.steps_content .steps_icon1 {
+  color: #7E7E7E;
+}
+.steps_content .steps_icon2 {
+  color: #9356DC;
 }
 
 /*# sourceMappingURL=accueil.css.map */
