@@ -59,7 +59,7 @@ header .logo {
 }
 @media screen and (min-width: 600px) {
   .restaurants {
-    padding: 35px 180px;
+    padding: 35px 150px;
   }
 }
 @media screen and (min-width: 600px) {
@@ -180,13 +180,16 @@ body {
 
 /* localisation*/
 .localisation {
+  display: flex;
+  justify-content: center;
   background-color: #EAEAEA;
   padding: 25px 0;
 }
 .localisation .icondot {
   color: #000000;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  margin-Right: 20px;
 }
 
 /* STEPS BTN */

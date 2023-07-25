@@ -35,13 +35,17 @@ body {
 /* localisation*/
 
 .localisation {
+    display: flex;
+    justify-content: center;
     background-color: $background-loc;
     padding: 25px 0;
 
     .icondot {
         color: $icon-dot;
         display: flex ;
-        justify-content: center;
+        align-items: center;
+        margin-Right: 20px;
+
     }
 }
 
