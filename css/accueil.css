@@ -7,6 +7,11 @@ header {
   display: flex;
   justify-content: center;
 }
+@media screen and (min-width: 600px) {
+  header {
+    margin: 25px 0;
+  }
+}
 header .logo {
   width: 185px;
 }
@@ -40,21 +45,28 @@ header .logo {
 .exploration p {
   text-align: center;
   font-size: 18px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .exploration_button {
   display: flex;
-  background: linear-gradient(#FF79DA, #9356DC);
+  background: linear-gradient(#FF79DA -22%, #9356DC);
   color: white;
   border-radius: 55px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-  padding: 15px;
+  padding: 15px 27px;
 }
 
 /* STEPS BTN */
 .steps {
+  display: flex;
+  flex-direction: column;
   padding: 30px 20px 30px 30px;
   position: relative;
+}
+@media screen and (min-width: 600px) {
+  .steps {
+    padding: 30px 150px 45px 150px;
+  }
 }
 .steps_number {
   display: flex;
@@ -70,6 +82,23 @@ header .logo {
 .steps_diff {
   display: flex;
   flex-direction: column;
+}
+@media screen and (min-width: 600px) {
+  .steps_diff {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+.steps_div {
+  width: 100%;
+}
+@media screen and (min-width: 600px) {
+  .steps_div {
+    margin: 0 3% 0 2%;
+  }
+}
+.steps .section-title {
+  margin-bottom: 0;
 }
 
 .steps_content {
@@ -102,7 +131,7 @@ header .logo {
 }
 @media screen and (min-width: 600px) {
   .restaurants {
-    padding: 35px 150px;
+    padding: 20px 150px 35px 150px;
   }
 }
 @media screen and (min-width: 600px) {
@@ -114,7 +143,7 @@ header .logo {
 }
 .restaurants img {
   width: 100%;
-  height: 200px;
+  height: 170px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   object-fit: cover;
@@ -226,7 +255,7 @@ body {
   display: flex;
   justify-content: center;
   background-color: #EAEAEA;
-  padding: 25px 0;
+  padding: 17px 0;
 }
 .localisation .icondot {
   color: #000000;

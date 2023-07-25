@@ -2,11 +2,16 @@ header{
     margin: 15px 0;
     display: flex;
     justify-content: center;
-    
+
+    @media screen and (min-width: 600px) { 
+        margin: 25px 0;
+    }
+
     .logo {
         width: 185px;
 
         @media screen and (min-width: 600px) { 
             width: 200px;  
+        }
     }
-}}
+}      
