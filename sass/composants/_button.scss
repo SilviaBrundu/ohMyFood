@@ -34,3 +34,54 @@
         padding: 15px;
     }
 }
+
+/* STEPS BTN */
+
+.steps {
+
+    padding: 30px 20px 30px 30px;
+    position:relative;
+
+    &_number {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: -13px;
+        top: 49px;
+        background-color: $background-stepsnumber;
+        color: $txt-stepsnumber;
+        width: 27px;
+        border-radius: 50px;
+    }
+
+    &_diff {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.steps_content {
+
+    display: flex;
+    flex-direction: Row;
+    background-color: $background-btn-steps;
+    border-radius: 25px;
+    padding: 25px 0 25px 30px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+
+    .steps_icon1 {
+        color: $icon-steps1;
+        display: flex;
+        align-items: center;
+    }
+
+    .steps_icon2 {
+        color: $icon-steps2;
+        display: flex;
+        align-items: center;
+    }
+
+    p {
+        padding-left: 16px;
+    }
+    }

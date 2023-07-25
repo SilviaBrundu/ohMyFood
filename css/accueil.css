@@ -51,6 +51,49 @@ header .logo {
   padding: 15px;
 }
 
+/* STEPS BTN */
+.steps {
+  padding: 30px 20px 30px 30px;
+  position: relative;
+}
+.steps_number {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -13px;
+  top: 49px;
+  background-color: #9356DC;
+  color: white;
+  width: 27px;
+  border-radius: 50px;
+}
+.steps_diff {
+  display: flex;
+  flex-direction: column;
+}
+
+.steps_content {
+  display: flex;
+  flex-direction: Row;
+  background-color: #F6F6F6;
+  border-radius: 25px;
+  padding: 25px 0 25px 30px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+}
+.steps_content .steps_icon1 {
+  color: #7E7E7E;
+  display: flex;
+  align-items: center;
+}
+.steps_content .steps_icon2 {
+  color: #9356DC;
+  display: flex;
+  align-items: center;
+}
+.steps_content p {
+  padding-left: 16px;
+}
+
 .restaurants {
   display: flex;
   flex-direction: column;
@@ -191,42 +234,5 @@ body {
   align-items: center;
   margin-Right: 20px;
 }
-
-/* STEPS BTN */
-.steps {
-  padding: 30px 20px;
-}
-.steps_number {
-  display: flex;
-  justify-content: center;
-  background-color: #9356DC;
-  color: white;
-  width: 27px;
-  border-radius: 50px;
-}
-.steps_diff {
-  display: flex;
-  flex-direction: column;
-}
-
-.steps_content {
-  display: flex;
-  flex-direction: Row;
-  background-color: #F6F6F6;
-  border-radius: 25px;
-  padding: 25px 0 25px 40px;
-  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
-}
-.steps_content .steps_icon1 {
-  color: #7E7E7E;
-}
-.steps_content .steps_icon2 {
-  color: #9356DC;
-}
-
-/* .steps_number {
-    position: absolute;
-    margin: 23px 46px -13px -11px;
-}*/
 
 /*# sourceMappingURL=accueil.css.map */

@@ -50,48 +50,4 @@ body {
 }
 
 
-/* STEPS BTN */
-
-.steps {
-
-    padding: 30px 20px;
-
-    &_number {
-        display: flex;
-        justify-content: center;
-        background-color: $background-stepsnumber;
-        color: $txt-stepsnumber;
-        width: 27px;
-        border-radius: 50px;
-    }
-
-    &_diff {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-.steps_content {
-
-    display: flex;
-    flex-direction: Row;
-    background-color: $background-btn-steps;
-    border-radius: 25px;
-    padding: 25px 0 25px 40px;
-    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
-
-    .steps_icon1 {
-        color: $icon-steps1;
-    }
-
-    .steps_icon2 {
-        color: $icon-steps2;
-    }
-    }
-
-/* .steps_number {
-    position: absolute;
-    margin: 23px 46px -13px -11px;
-}*/
-
 
