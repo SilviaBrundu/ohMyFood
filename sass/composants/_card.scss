@@ -4,14 +4,26 @@
     background-color: $background-general;
     padding: 30px 20px;
 
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 767.98px) {
+        padding: 20px 80px 35px 80px;
+    }
+
+    @media screen and (min-width: 1024px) {
         padding: 20px 150px 35px 150px;
     }
 
     &_card {
-        @media screen and (min-width: 600px) {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        @media screen and (min-width: 767.98px) {
             display: grid;
             grid-template-columns: 1fr 1fr;
+            gap: 40px 50px;
+        }
+
+        @media screen and (min-width: 1024px) {
             gap: 40px 100px;
         }
     }
@@ -25,9 +37,26 @@
     }
 
     .card {
-        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
 
-        @media screen and (min-width: 600px) {
+        &_new {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 45px;
+            left: 72%;
+            background-color: $background-new;
+            color: $txt-new;
+            font-size: 14px;
+            width: 24%;
+            height: 29px;
+            border-radius: 2px;
+        }
+
+        @media screen and (min-width: 767.98px) {
             margin-bottom: 0;
         }
     }

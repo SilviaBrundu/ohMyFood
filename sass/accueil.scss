@@ -40,6 +40,10 @@ body {
     background-color: $background-loc;
     padding: 17px 0;
 
+    p {
+        font-weight: 500px;
+    }
+
     .icondot {
         color: $icon-dot;
         display: flex ;
