@@ -1,58 +1,9 @@
 @import "./utils/variables";
+@import "./base/base";
 @import "./layouts/header";
+@import "./layouts/locationdot";
 @import "./composants/button";
 @import "./composants/card";
 @import "./layouts/footer";
-
-/* GENERAL */
-
-
-
-a {
-    text-decoration: none;
-    color: $txt-color;
-}
-
-p,
-h3 {
-    margin: 0;
-    line-height: 25px;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    width: 100%;
-    box-sizing: border-box;
-    font-family: $font-family-general;
-    
-}
-
-.section-title {
-    margin: 20px 0 30px 0 ;
-}
-
-/* localisation*/
-
-.localisation {
-    display: flex;
-    justify-content: center;
-    background-color: $background-loc;
-    padding: 17px 0;
-
-    p {
-        font-weight: 500;
-    }
-
-    .icondot {
-        color: $icon-dot;
-        display: flex ;
-        align-items: center;
-        margin-Right: 20px;
-
-    }
-}
-
 
 

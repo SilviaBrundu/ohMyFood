@@ -1,0 +1,19 @@
+.localisation {
+    display: flex;
+    justify-content: center;
+    background-color: $background-loc;
+    padding: 17px 0;
+
+    p {
+        font-weight: 500;
+        color: $txt-dot;
+    }
+
+    .icondot {
+        color: $icon-dot;
+        display: flex ;
+        align-items: center;
+        margin-Right: 20px;
+
+    }
+}
