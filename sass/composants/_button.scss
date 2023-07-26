@@ -1,9 +1,7 @@
 /* EXPLORATION */
 
 .exploration {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flexcolumn-itemscenter;
     padding: 20px 47px 53px 47px;
     background-color: $background-general;
 
@@ -41,8 +39,7 @@
 
 .steps {
 
-    display: flex;
-    flex-direction: column;
+    @include flexcolumn;
     padding: 30px 20px 30px 30px;
     position:relative;
 
@@ -55,8 +52,7 @@
     }
 
     &_number {
-        display: flex;
-        justify-content: center;
+        @include flexrow-contentcenter;
         position: relative;
         left: -13px;
         top: 49px;
@@ -67,8 +63,7 @@
     }
 
     &_diff {
-        display: flex;
-        flex-direction: column;
+        @include flexcolumn;
 
         @media screen and (min-width: 767.98px) {
             flex-direction: row;
@@ -94,7 +89,6 @@
 .steps_content {
 
     display: flex;
-    flex-direction: Row;
     background-color: $background-btn-steps;
     border-radius: 25px;
     padding: 25px 0 25px 30px;
@@ -107,9 +101,8 @@
     }
 
     .steps_icon2 {
+        @include flexrow-itemscenter;
         color: $icon-steps2;
-        display: flex;
-        align-items: center;
     }
 
     p {

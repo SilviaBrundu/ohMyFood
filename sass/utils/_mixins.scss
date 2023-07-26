@@ -1,0 +1,39 @@
+/* DISPLAY FLEX */
+
+@mixin flexcolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flexcolumn-itemscenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin flexrow-contentcenter {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin flexrow-itemscenter {
+    display: flex;
+    align-items: center;
+}
+
+@mixin flexrow-allcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexrow-spaceb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@mixin flexrow-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}

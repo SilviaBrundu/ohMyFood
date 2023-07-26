@@ -1,6 +1,5 @@
 .localisation {
-    display: flex;
-    justify-content: center;
+    @include flexrow-contentcenter;
     background-color: $background-loc;
     padding: 17px 0;
 
@@ -10,9 +9,8 @@
     }
 
     .icondot {
+        @include flexrow-itemscenter;
         color: $icon-dot;
-        display: flex ;
-        align-items: center;
         margin-Right: 20px;
 
     }

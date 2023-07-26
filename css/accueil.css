@@ -2,6 +2,7 @@
 /* TEXT COLOR */
 /* TEXT DECORATION */
 /* ICON COLOR */
+/* DISPLAY FLEX */
 body {
   display: flex;
   flex-direction: column;
@@ -22,20 +23,14 @@ a {
   color: #000000;
 }
 
-p,
-h3 {
-  margin: 0;
-  line-height: 25px;
-}
-
 .section-title {
   margin: 20px 0 30px 0;
 }
 
 header {
-  margin: 15px 0;
   display: flex;
   justify-content: center;
+  margin: 15px 0;
 }
 @media screen and (min-width: 767.98px) {
   header {
@@ -62,9 +57,9 @@ header .logo {
   color: #353535;
 }
 .localisation .icondot {
-  color: #353535;
   display: flex;
   align-items: center;
+  color: #353535;
   margin-Right: 20px;
 }
 
@@ -157,7 +152,6 @@ header .logo {
 
 .steps_content {
   display: flex;
-  flex-direction: Row;
   background-color: #F6F6F6;
   border-radius: 25px;
   padding: 25px 0 25px 30px;
@@ -169,9 +163,9 @@ header .logo {
   align-items: center;
 }
 .steps_content .steps_icon2 {
-  color: #9356DC;
   display: flex;
   align-items: center;
+  color: #9356DC;
 }
 .steps_content p {
   padding-left: 16px;
@@ -245,11 +239,11 @@ header .logo {
 }
 
 .card_content {
-  width: 100%;
-  padding: 15px 30px 15px 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
+  padding: 15px 30px 15px 15px;
   box-sizing: border-box;
   background-color: white;
   border-bottom-left-radius: 20px;
