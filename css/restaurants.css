@@ -1,2 +1,114 @@
+/* BACKGROUND COLOR */
+/* TEXT COLOR */
+/* TEXT DECORATION */
+/* ICON COLOR */
+/* DISPLAY FLEX */
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+p,
+h3 {
+  margin: 0;
+  line-height: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.section-title {
+  margin: 20px 0 30px 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+@media screen and (min-width: 767.98px) {
+  header {
+    margin: 25px 0;
+  }
+}
+header .nav_icon {
+  position: absolute;
+  top: 22px;
+  left: 32px;
+}
+@media screen and (min-width: 767.98px) {
+  header .nav_icon {
+    top: 35px;
+  }
+}
+header .logo {
+  width: 185px;
+}
+@media screen and (min-width: 767.98px) {
+  header .logo {
+    width: 200px;
+  }
+}
+
+footer {
+  background-color: #353535;
+  color: white;
+}
+@media screen and (min-width: 767.98px) {
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+footer .footer-content {
+  padding: 0 0 20px 35px;
+}
+@media screen and (min-width: 767.98px) {
+  footer .footer-content {
+    display: flex;
+    padding-bottom: 0;
+  }
+}
+footer .footer-logo {
+  font-family: "Shrikhand", sans-serif;
+  padding: 20px 0 20px 35px;
+  letter-spacing: 0.5px;
+}
+@media screen and (min-width: 767.98px) {
+  footer .footer-logo {
+    padding: 54px 56px 20px 52px;
+  }
+}
+footer a {
+  color: white;
+  line-height: 25px;
+}
+
+.icon-footer {
+  color: white;
+  margin-right: 10px;
+}
+
+.list1 p {
+  font-weight: 500;
+}
+
+@media screen and (min-width: 767.98px) {
+  .list1, .list2 {
+    display: flex;
+    padding: 60px 29px 25px 0;
+  }
+}
+@media screen and (min-width: 767.98px) {
+  .list1 p, .list2 p {
+    padding-right: 15px;
+  }
+}
 
 /*# sourceMappingURL=restaurants.css.map */
