@@ -37,6 +37,12 @@ footer {
     margin-right: 10px;
 }
 
+.list1 {
+    p{
+        font-weight: 500;
+    }
+}
+
 .list1, .list2 {
     @media screen and (min-width: 767.98px){
     display: flex;

@@ -45,12 +45,14 @@ header .logo {
 .exploration p {
   text-align: center;
   font-size: 18px;
+  font-weight: 300;
   margin-bottom: 30px;
 }
 .exploration_button {
   display: flex;
   background: linear-gradient(#FF79DA -22%, #9356DC);
   color: white;
+  font-weight: 500;
   border-radius: 55px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   padding: 15px 27px;
@@ -126,6 +128,7 @@ header .logo {
 }
 .steps_content p {
   padding-left: 16px;
+  font-weight: 500;
 }
 
 .restaurants {
@@ -182,6 +185,7 @@ header .logo {
   left: 72%;
   background-color: #99E2D0;
   color: #008766;
+  font-family: 500;
   font-size: 14px;
   width: 24%;
   height: 29px;
@@ -208,6 +212,10 @@ header .logo {
   color: #000000;
   display: flex;
   align-items: center;
+}
+
+.card_txt .card_subtitle {
+  font-weight: 300;
 }
 
 footer {
@@ -247,6 +255,10 @@ footer a {
 .icon-footer {
   color: white;
   margin-right: 10px;
+}
+
+.list1 p {
+  font-weight: 500;
 }
 
 @media screen and (min-width: 767.98px) {
@@ -292,6 +304,9 @@ body {
   justify-content: center;
   background-color: #EAEAEA;
   padding: 17px 0;
+}
+.localisation p {
+  font-weight: 500;
 }
 .localisation .icondot {
   color: #000000;
