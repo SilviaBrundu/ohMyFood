@@ -4,6 +4,7 @@
 @import "./layouts/header";
 @import "./layouts/footer";
 
+/* IMAGE */
 
 .image {
     img {
@@ -17,3 +18,56 @@
 
     }
 }
+
+/* MENU TITLE */
+
+.menu {
+    @include flexcolumn;
+    position: relative;
+    top: -35px;
+    background-color: #F6F6F6;
+    border-radius: 40px 40px 0 0;
+    padding: 12px 15px;
+
+    &_title {
+        @include flexrow-spaceb;
+        font-family: $font-family-title;
+            
+        h1 {
+            font-size: 28px;
+        }
+    }
+
+    .iconheart {
+        @include flexrow-allcenter;
+        padding-right: 25px;
+    } 
+}
+
+/* MENU CONTENT */
+
+.menu_container {
+    @include flexcolumn;
+    gap: 12px;
+
+    h2 {
+        font-weight: 300;
+        font-size: 16px;
+        text-transform: uppercase;
+        border-bottom: solid 3px $brd-menu;
+        width: 40px;
+        line-height: 25px;
+        margin: 37px 0 0 0;
+    }
+}
+
+.menu_content {
+    background-color: $background-cardcontent;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px 0px #0000001A;
+
+    .menu_txtdiv {
+        @include flexrow-spaceb;
+    }
+}
+
