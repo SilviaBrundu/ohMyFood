@@ -3,3 +3,17 @@
 @import "./base/base";
 @import "./layouts/header";
 @import "./layouts/footer";
+
+
+.image {
+    img {
+        width: 100%;
+        height: 275px;
+        object-fit: cover;
+
+        @media screen and (min-width: 767.98px) {
+            height: 470px;
+        }
+
+    }
+}
