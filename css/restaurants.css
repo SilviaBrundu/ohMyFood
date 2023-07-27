@@ -134,14 +134,35 @@ footer a {
   border-radius: 40px 40px 0 0;
   padding: 12px 15px;
 }
+@media screen and (min-width: 767.98px) {
+  .menu {
+    margin-right: 80px;
+    margin-left: 80px;
+    padding: 35px 12%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .menu {
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+}
 .menu_title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   font-family: "Shrikhand", sans-serif;
+  margin-top: 20px;
 }
 .menu_title h1 {
   font-size: 28px;
+  margin: 0;
+}
+@media screen and (min-width: 767.98px) {
+  .menu_title {
+    justify-content: center;
+    gap: 6%;
+  }
 }
 .menu .iconheart {
   display: flex;
@@ -163,18 +184,29 @@ footer a {
   border-bottom: solid 3px #99E2D0;
   width: 40px;
   line-height: 25px;
-  margin: 37px 0 0 0;
+  margin: 30px 0 0 0;
 }
 
 .menu_content {
   background-color: white;
   border-radius: 20px;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1019607843);
+  padding: 12px 15px;
+}
+.menu_content h3 {
+  font-weight: 500;
 }
 .menu_content .menu_txtdiv {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.menu_content .menu_txtdiv p {
+  font-weight: 300;
+}
+.menu_content .menu_txtdiv .menu_euros {
+  font-size: 18px;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=restaurants.css.map */
