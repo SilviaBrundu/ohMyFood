@@ -101,6 +101,7 @@ header .logo {
   font-weight: 300;
   margin-bottom: 30px;
 }
+
 .exploration_button {
   display: flex;
   background: linear-gradient(#FF79DA -22%, #9356DC);

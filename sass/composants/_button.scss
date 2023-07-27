@@ -23,18 +23,17 @@
         font-weight: 300;
         margin-bottom: 30px;
     }
-
-    &_button {
-        display: flex;
-        background: linear-gradient( #FF79DA -22%,#9356DC);
-        color: $txt-button-exploration;
-        font-weight: 500;
-        border-radius: 55px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-        padding: 15px 27px;
-    }
 }
 
+.exploration_button {
+    display: flex;
+    background: linear-gradient( #FF79DA -22%,#9356DC);
+    color: $txt-button;
+    font-weight: 500;
+    border-radius: 55px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    padding: 15px 27px;
+}
 /* STEPS BTN */
 
 .steps {
