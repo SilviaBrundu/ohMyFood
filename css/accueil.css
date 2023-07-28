@@ -82,7 +82,7 @@ header .logo {
 }
 
 /* ICON LOCALISATION */
-.localisation > .icondot {
+.localisation > .icon_dot {
   display: flex;
   align-items: center;
   color: #353535;
@@ -91,9 +91,9 @@ header .logo {
 
 /* ICON STEPS */
 .steps_icon1 {
-  color: #7E7E7E;
   display: flex;
   align-items: center;
+  color: #7E7E7E;
 }
 
 .steps_icon2 {
@@ -103,14 +103,14 @@ header .logo {
 }
 
 /* ICON HEART */
-.iconheart {
+.icon_heart {
   display: flex;
   align-items: center;
   color: #000000;
 }
 
 /* ICON FOOTER */
-.icon-footer {
+.icon_footer {
   color: white;
   margin-right: 10px;
 }

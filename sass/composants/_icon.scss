@@ -1,6 +1,6 @@
 /* ICON LOCALISATION */
 
-.localisation > .icondot {
+.localisation > .icon_dot {
     @include flexrow-itemscenter;
     color: $icon-dot;
     margin-Right: 20px; 
@@ -9,9 +9,8 @@
 /* ICON STEPS */
 
 .steps_icon1 {
+    @include flexrow-itemscenter;
     color: $icon-steps1;
-    display: flex;
-    align-items: center;
 }
 
 .steps_icon2 {
@@ -21,7 +20,7 @@
 
 /* ICON HEART */
 
-.iconheart {
+.icon_heart {
     @include flexrow-itemscenter;
     color: $icon-heart;
 
@@ -29,7 +28,7 @@
 
 /* ICON FOOTER */
 
-.icon-footer {
+.icon_footer {
     color: $icon-footer;
     margin-right: 10px;
 }
