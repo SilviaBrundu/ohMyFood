@@ -1,0 +1,25 @@
+.exploration {
+    @include flexcolumn-itemscenter;
+    padding: 20px 47px 53px 47px;
+    background-color: $background-general;
+
+
+    @media screen and (min-width: 767.98px) {
+        padding-bottom: 30px;
+    }
+    
+    h2 {
+        text-align: center;
+        
+        @media screen and (min-width: 767.98px) {
+            font-size: 40px;
+        }
+    }
+
+    p {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,10 @@
+.localisation {
+    @include flexrow-contentcenter;
+    background-color: $background-loc;
+    padding: 17px 0;
+
+    p {
+        font-weight: 500;
+        color: $txt-dot;
+    }
+}

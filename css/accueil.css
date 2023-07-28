@@ -117,7 +117,6 @@ header .logo {
   margin-right: 10px;
 }
 
-/* RESTAURANTS */
 .card {
   display: flex;
   flex-direction: column;
@@ -137,7 +136,7 @@ header .logo {
   left: 72%;
   background-color: #99E2D0;
   color: #008766;
-  font-family: 500;
+  font-weight: 500;
   font-size: 14px;
   width: 24%;
   height: 29px;
@@ -163,57 +162,6 @@ header .logo {
   font-weight: 300;
 }
 
-footer {
-  background-color: #353535;
-  color: white;
-}
-@media screen and (min-width: 767.98px) {
-  footer {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-}
-footer .footer-content {
-  padding: 0 0 20px 35px;
-}
-@media screen and (min-width: 767.98px) {
-  footer .footer-content {
-    display: flex;
-    padding-bottom: 0;
-  }
-}
-footer .footer-logo {
-  font-family: "Shrikhand", sans-serif;
-  padding: 20px 0 20px 35px;
-  letter-spacing: 0.5px;
-}
-@media screen and (min-width: 767.98px) {
-  footer .footer-logo {
-    padding: 54px 56px 20px 52px;
-  }
-}
-footer a {
-  color: white;
-  line-height: 25px;
-}
-
-.list1 p {
-  font-weight: 500;
-}
-
-@media screen and (min-width: 767.98px) {
-  .list1, .list2 {
-    display: flex;
-    padding: 60px 29px 25px 0;
-  }
-}
-@media screen and (min-width: 767.98px) {
-  .list1 p, .list2 p {
-    padding-right: 15px;
-  }
-}
-
-/* LOCALISATION */
 .localisation {
   display: flex;
   justify-content: center;
@@ -225,7 +173,6 @@ footer a {
   color: #353535;
 }
 
-/* EXPLORATION */
 .exploration {
   display: flex;
   flex-direction: column;
@@ -253,7 +200,6 @@ footer a {
   margin-bottom: 30px;
 }
 
-/* STEPS */
 .steps {
   display: flex;
   flex-direction: column;
@@ -315,7 +261,6 @@ footer a {
   font-weight: 500;
 }
 
-/* RESTAURANTS CARDS */
 .restaurants {
   display: flex;
   flex-direction: column;
@@ -355,6 +300,56 @@ footer a {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   object-fit: cover;
+}
+
+footer {
+  background-color: #353535;
+  color: white;
+}
+@media screen and (min-width: 767.98px) {
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+footer .footer-content {
+  padding: 0 0 20px 35px;
+}
+@media screen and (min-width: 767.98px) {
+  footer .footer-content {
+    display: flex;
+    padding-bottom: 0;
+  }
+}
+footer .footer-logo {
+  font-family: "Shrikhand", sans-serif;
+  padding: 20px 0 20px 35px;
+  letter-spacing: 0.5px;
+}
+@media screen and (min-width: 767.98px) {
+  footer .footer-logo {
+    padding: 54px 56px 20px 52px;
+  }
+}
+footer a {
+  color: white;
+  line-height: 25px;
+}
+
+.list1 p {
+  font-weight: 500;
+}
+
+@media screen and (min-width: 767.98px) {
+  .list1, .list2 {
+    display: flex;
+    padding: 60px 29px 25px 0;
+  }
+}
+@media screen and (min-width: 767.98px) {
+  .list1 p, .list2 p {
+    padding-right: 15px;
+  }
 }
 
 /*# sourceMappingURL=accueil.css.map */

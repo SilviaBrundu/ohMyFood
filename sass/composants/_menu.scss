@@ -1,0 +1,88 @@
+/* MENU TITLE */
+
+.menu {
+    @include flexcolumn;
+    position: relative;
+    top: -35px;
+    margin-bottom: -35px;
+    background-color: #F6F6F6;
+    border-radius: 40px 40px 0 0;
+    padding: 12px 15px;
+
+    @media screen and (min-width: 767.98px) {
+        margin-right:  80px;
+        margin-left: 80px;
+        padding: 35px 12%;
+    }
+
+    @media screen and (min-width: 1024px) {
+        margin-right:  200px;
+        margin-left: 200px;
+    }
+
+    &_title {
+        @include flexrow-spaceb;
+        font-family: $font-family-title;
+        margin-top: 20px;
+            
+        h1 {
+            font-size: 28px;
+            margin: 0;
+        }
+
+        @media screen and (min-width: 767.98px) {
+            justify-content: center;
+            gap: 6%;
+        } 
+    }
+}
+
+/* MENU CONTENT */
+
+.menu_container {
+    @include flexcolumn;
+    gap: 12px;
+
+    h2 {
+        font-weight: 300;
+        font-size: 16px;
+        text-transform: uppercase;
+        border-bottom: solid 3px $brd-menu;
+        width: 40px;
+        line-height: 25px;
+        margin: 30px 0 0 0;
+    }
+}
+
+.menu_content {
+    background-color: $background-cardcontent;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px 0px #0000001A;
+    padding: 12px 15px;
+
+    h3 {
+        font-weight: 500;
+    }
+
+    .menu_txtdiv {
+        @include flexrow-spaceb;
+
+        p {
+            font-weight: 300;
+        }
+
+        .menu_euros {
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+}
+
+.menu_end {
+    @include flexrow-contentcenter;
+    margin: 43px 0 30px 0;
+
+    @media screen and (min-width: 767.98px) {
+        margin-bottom: 10px;
+    } 
+}
