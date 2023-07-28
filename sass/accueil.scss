@@ -2,9 +2,113 @@
 @import "./utils/mixins";
 @import "./base/base";
 @import "./layouts/header";
-@import "./layouts/locationdot";
 @import "./composants/button";
+@import "./composants/icon";
 @import "./composants/card";
 @import "./layouts/footer";
 
+/* LOCALISATION */
+
+.localisation {
+    @include flexrow-contentcenter;
+    background-color: $background-loc;
+    padding: 17px 0;
+
+    p {
+        font-weight: 500;
+        color: $txt-dot;
+    }
+}
+
+/* EXPLORATION */
+
+.exploration {
+    @include flexcolumn-itemscenter;
+    padding: 20px 47px 53px 47px;
+    background-color: $background-general;
+
+    @media screen and (min-width: 767.98px) {
+        padding-bottom: 30px;
+    }
+    
+    h2 {
+        text-align: center;
+        
+        @media screen and (min-width: 767.98px) {
+            font-size: 40px;
+        }
+    }
+
+    p {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+}
+
+/* STEPS BTN */
+
+.steps {
+
+    @include flexcolumn;
+    padding: 30px 20px 30px 30px;
+    position:relative;
+
+    @media screen and (min-width: 767.98px) {
+        padding: 20px 80px 35px 80px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        padding: 20px 150px 35px 150px;
+    }
+
+    &_number {
+        @include flexrow-contentcenter;
+        position: relative;
+        left: -13px;
+        top: 49px;
+        background-color: $background-stepsnumber;
+        color: $txt-stepsnumber;
+        width: 27px;
+        border-radius: 50px;
+    }
+
+    &_diff {
+        @include flexcolumn;
+
+        @media screen and (min-width: 767.98px) {
+            flex-direction: row;
+            justify-content: space-around;
+            
+        }
+    }
+
+    &_div {
+        width: 100%;
+
+        @media screen and (min-width: 767.98px) {
+            margin: 0 3% 0 2%;
+            
+        } 
+    }
+
+    .section-title {
+        margin-bottom: 0;
+    }
+}
+
+.steps_content {
+
+    display: flex;
+    background-color: $background-btn-steps;
+    border-radius: 25px;
+    padding: 25px 0 25px 30px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+
+    p {
+        padding-left: 16px;
+        font-weight: 500;
+    }
+}
 

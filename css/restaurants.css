@@ -29,33 +29,6 @@ a {
 }
 
 /* EXPLORATION */
-.exploration {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px 47px 53px 47px;
-  background-color: #F6F6F6;
-}
-@media screen and (min-width: 767.98px) {
-  .exploration {
-    padding-bottom: 30px;
-  }
-}
-.exploration h2 {
-  text-align: center;
-}
-@media screen and (min-width: 767.98px) {
-  .exploration h2 {
-    font-size: 40px;
-  }
-}
-.exploration p {
-  text-align: center;
-  font-size: 18px;
-  font-weight: 300;
-  margin-bottom: 30px;
-}
-
 .exploration_button {
   display: flex;
   background: linear-gradient(#FF79DA -22%, #9356DC);
@@ -66,76 +39,51 @@ a {
   padding: 15px 27px;
 }
 
-/* STEPS BTN */
-.steps {
-  display: flex;
-  flex-direction: column;
-  padding: 30px 20px 30px 30px;
-  position: relative;
-}
-@media screen and (min-width: 767.98px) {
-  .steps {
-    padding: 20px 80px 35px 80px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .steps {
-    padding: 20px 150px 35px 150px;
-  }
-}
-.steps_number {
+/* MENU RESTAURANTS */
+.menu_button {
   display: flex;
   justify-content: center;
-  position: relative;
-  left: -13px;
-  top: 49px;
-  background-color: #9356DC;
+  width: 130px;
+  background: linear-gradient(#FF79DA -22%, #9356DC);
   color: white;
-  width: 27px;
-  border-radius: 50px;
-}
-.steps_diff {
-  display: flex;
-  flex-direction: column;
-}
-@media screen and (min-width: 767.98px) {
-  .steps_diff {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-}
-.steps_div {
-  width: 100%;
-}
-@media screen and (min-width: 767.98px) {
-  .steps_div {
-    margin: 0 3% 0 2%;
-  }
-}
-.steps .section-title {
-  margin-bottom: 0;
+  font-weight: 500;
+  border-radius: 55px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  padding: 15px 27px;
 }
 
-.steps_content {
+/* ICON LOCALISATION */
+.localisation > .icondot {
   display: flex;
-  background-color: #F6F6F6;
-  border-radius: 25px;
-  padding: 25px 0 25px 30px;
-  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+  align-items: center;
+  color: #353535;
+  margin-Right: 20px;
 }
-.steps_content .steps_icon1 {
+
+/* ICON STEPS */
+.steps_icon1 {
   color: #7E7E7E;
   display: flex;
   align-items: center;
 }
-.steps_content .steps_icon2 {
+
+.steps_icon2 {
   display: flex;
   align-items: center;
   color: #9356DC;
 }
-.steps_content p {
-  padding-left: 16px;
-  font-weight: 500;
+
+/* ICON HEART */
+.iconheart {
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+/* ICON FOOTER */
+.icon-footer {
+  color: white;
+  margin-right: 10px;
 }
 
 header {
@@ -199,11 +147,6 @@ footer .footer-logo {
 footer a {
   color: white;
   line-height: 25px;
-}
-
-.icon-footer {
-  color: white;
-  margin-right: 10px;
 }
 
 .list1 p {
@@ -275,12 +218,6 @@ footer a {
     gap: 6%;
   }
 }
-.menu .iconheart {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 25px;
-}
 
 /* MENU CONTENT */
 .menu_container {
@@ -329,17 +266,6 @@ footer a {
   .menu_end {
     margin-bottom: 10px;
   }
-}
-.menu_end .menu_button {
-  display: flex;
-  justify-content: center;
-  width: 130px;
-  background: linear-gradient(#FF79DA -22%, #9356DC);
-  color: white;
-  font-weight: 500;
-  border-radius: 55px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-  padding: 15px 27px;
 }
 
 /*# sourceMappingURL=restaurants.css.map */

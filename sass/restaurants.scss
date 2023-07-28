@@ -2,6 +2,7 @@
 @import "./utils/mixins";
 @import "./base/base";
 @import "./composants/button";
+@import "./composants/icon";
 @import "./layouts/header";
 @import "./layouts/footer";
 
@@ -57,11 +58,6 @@
             gap: 6%;
         } 
     }
-
-    .iconheart {
-        @include flexrow-allcenter;
-        padding-right: 25px;
-    } 
 }
 
 /* MENU CONTENT */
@@ -112,15 +108,4 @@
     @media screen and (min-width: 767.98px) {
         margin-bottom: 10px;
     } 
-
-    .menu_button {
-        @include flexrow-contentcenter;
-        width: 130px;
-        background: linear-gradient( #FF79DA -22%,#9356DC);
-        color: $txt-button;
-        font-weight: 500;
-        border-radius: 55px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-        padding: 15px 27px;
-    }
 }
