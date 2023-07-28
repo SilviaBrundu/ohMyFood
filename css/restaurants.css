@@ -52,6 +52,18 @@ a {
   padding: 15px 27px;
 }
 
+/* ICON HEADER */
+.icon_arrow {
+  position: absolute;
+  top: 22px;
+  left: 32px;
+}
+@media screen and (min-width: 767.98px) {
+  .icon_arrow {
+    top: 35px;
+  }
+}
+
 /* ICON LOCALISATION */
 .localisation > .icon_dot {
   display: flex;
@@ -94,16 +106,6 @@ header {
 @media screen and (min-width: 767.98px) {
   header {
     margin: 25px 0;
-  }
-}
-header .nav_icon {
-  position: absolute;
-  top: 22px;
-  left: 32px;
-}
-@media screen and (min-width: 767.98px) {
-  header .nav_icon {
-    top: 35px;
   }
 }
 header .logo {

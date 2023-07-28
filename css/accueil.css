@@ -38,16 +38,6 @@ header {
     margin: 25px 0;
   }
 }
-header .nav_icon {
-  position: absolute;
-  top: 22px;
-  left: 32px;
-}
-@media screen and (min-width: 767.98px) {
-  header .nav_icon {
-    top: 35px;
-  }
-}
 header .logo {
   width: 185px;
 }
@@ -79,6 +69,18 @@ header .logo {
   border-radius: 55px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   padding: 15px 27px;
+}
+
+/* ICON HEADER */
+.icon_arrow {
+  position: absolute;
+  top: 22px;
+  left: 32px;
+}
+@media screen and (min-width: 767.98px) {
+  .icon_arrow {
+    top: 35px;
+  }
 }
 
 /* ICON LOCALISATION */
