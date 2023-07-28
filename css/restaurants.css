@@ -320,7 +320,17 @@ footer a {
   font-weight: 500;
 }
 
-.menu_button {
+.menu_end {
+  display: flex;
+  justify-content: center;
+  margin: 43px 0 30px 0;
+}
+@media screen and (min-width: 767.98px) {
+  .menu_end {
+    margin-bottom: 10px;
+  }
+}
+.menu_end .menu_button {
   display: flex;
   justify-content: center;
   width: 130px;
