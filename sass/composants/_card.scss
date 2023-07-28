@@ -1,77 +1,47 @@
-.restaurants {
+/* RESTAURANTS */
+
+.card {
     @include flexcolumn;
-    background-color: $background-general;
-    padding: 30px 20px;
+    position: relative;
 
     @media screen and (min-width: 767.98px) {
-        padding: 20px 80px 35px 80px;
+        margin-bottom: 0;
     }
 
-    @media screen and (min-width: 1024px) {
-        padding: 20px 150px 35px 150px;
-    }
-
-    &_card {
-        @include flexcolumn;
-        gap: 30px;
-
-        @media screen and (min-width: 767.98px) {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px 50px;
-        }
-
-        @media screen and (min-width: 1024px) {
-            gap: 40px 100px;
-        }
-    }
-
-    img {
-        width: 100%;
-        height: 170px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        object-fit: cover;
-    }
-
-    .card {
-        @include flexcolumn;
+    &_new {
+        @include flexrow-allcenter;
         position: relative;
+        top: 45px;
+        left: 72%;
+        background-color: $background-new;
+        color: $txt-new;
+        font-family: 500;
+        font-size: 14px;
+        width: 24%;
+        height: 29px;
+        border-radius: 2px;
+    }
 
-        &_new {
-            @include flexrow-allcenter;
-            position: relative;
-            top: 45px;
-            left: 72%;
-            background-color: $background-new;
-            color: $txt-new;
-            font-family: 500;
-            font-size: 14px;
-            width: 24%;
-            height: 29px;
-            border-radius: 2px;
-        }
+    @media screen and (min-width: 767.98px) {
+        margin-bottom: 0;
+    }
 
-        @media screen and (min-width: 767.98px) {
-            margin-bottom: 0;
+    &_content {
+        @include flexrow-spaceb;
+        width: 100%;
+        padding: 15px 30px 15px 15px;
+        box-sizing: border-box;
+        background-color: $background-cardcontent;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    &_txt {
+
+        .card_subtitle {
+        font-weight: 300;
         }
     }
 }
 
-.card_content {
-    @include flexrow-spaceb;
-    width: 100%;
-    padding: 15px 30px 15px 15px;
-    box-sizing: border-box;
-    background-color: $background-cardcontent;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.card_txt {
-
-    .card_subtitle {
-    font-weight: 300;
-}
-}
 

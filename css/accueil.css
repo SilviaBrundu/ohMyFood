@@ -115,52 +115,18 @@ header .logo {
   margin-right: 10px;
 }
 
-.restaurants {
-  display: flex;
-  flex-direction: column;
-  background-color: #F6F6F6;
-  padding: 30px 20px;
-}
-@media screen and (min-width: 767.98px) {
-  .restaurants {
-    padding: 20px 80px 35px 80px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .restaurants {
-    padding: 20px 150px 35px 150px;
-  }
-}
-.restaurants_card {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-@media screen and (min-width: 767.98px) {
-  .restaurants_card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px 50px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .restaurants_card {
-    gap: 40px 100px;
-  }
-}
-.restaurants img {
-  width: 100%;
-  height: 170px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  object-fit: cover;
-}
-.restaurants .card {
+/* RESTAURANTS */
+.card {
   display: flex;
   flex-direction: column;
   position: relative;
 }
-.restaurants .card_new {
+@media screen and (min-width: 767.98px) {
+  .card {
+    margin-bottom: 0;
+  }
+}
+.card_new {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -176,11 +142,10 @@ header .logo {
   border-radius: 2px;
 }
 @media screen and (min-width: 767.98px) {
-  .restaurants .card {
+  .card {
     margin-bottom: 0;
   }
 }
-
 .card_content {
   display: flex;
   flex-direction: row;
@@ -192,7 +157,6 @@ header .logo {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-
 .card_txt .card_subtitle {
   font-weight: 300;
 }
@@ -287,7 +251,7 @@ footer a {
   margin-bottom: 30px;
 }
 
-/* STEPS BTN */
+/* STEPS */
 .steps {
   display: flex;
   flex-direction: column;
@@ -347,6 +311,48 @@ footer a {
 .steps_content p {
   padding-left: 16px;
   font-weight: 500;
+}
+
+/* RESTAURANTS CARDS */
+.restaurants {
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F6F6;
+  padding: 30px 20px;
+}
+@media screen and (min-width: 767.98px) {
+  .restaurants {
+    padding: 20px 80px 35px 80px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .restaurants {
+    padding: 20px 150px 35px 150px;
+  }
+}
+.restaurants_card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media screen and (min-width: 767.98px) {
+  .restaurants_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 50px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .restaurants_card {
+    gap: 40px 100px;
+  }
+}
+.restaurants img {
+  width: 100%;
+  height: 170px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=accueil.css.map */
