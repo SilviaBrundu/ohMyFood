@@ -33,18 +33,8 @@ header {
   justify-content: center;
   margin: 15px 0;
 }
-@media screen and (min-width: 767.98px) {
-  header {
-    margin: 25px 0;
-  }
-}
 header .logo {
   width: 185px;
-}
-@media screen and (min-width: 767.98px) {
-  header .logo {
-    width: 200px;
-  }
 }
 
 /* EXPLORATION */
@@ -76,11 +66,6 @@ header .logo {
   position: absolute;
   top: 22px;
   left: 32px;
-}
-@media screen and (min-width: 767.98px) {
-  .icon_arrow {
-    top: 35px;
-  }
 }
 
 /* ICON LOCALISATION */
@@ -122,11 +107,6 @@ header .logo {
   flex-direction: column;
   position: relative;
 }
-@media screen and (min-width: 767.98px) {
-  .card {
-    margin-bottom: 0;
-  }
-}
 .card_new {
   display: flex;
   justify-content: center;
@@ -142,11 +122,6 @@ header .logo {
   height: 29px;
   border-radius: 2px;
   margin-top: -30px;
-}
-@media screen and (min-width: 767.98px) {
-  .card {
-    margin-bottom: 0;
-  }
 }
 .card_content {
   display: flex;
@@ -181,18 +156,8 @@ header .logo {
   padding: 20px 47px 53px 47px;
   background-color: #F6F6F6;
 }
-@media screen and (min-width: 767.98px) {
-  .exploration {
-    padding-bottom: 30px;
-  }
-}
 .exploration h2 {
   text-align: center;
-}
-@media screen and (min-width: 767.98px) {
-  .exploration h2 {
-    font-size: 40px;
-  }
 }
 .exploration p {
   text-align: center;
@@ -206,16 +171,6 @@ header .logo {
   flex-direction: column;
   padding: 30px 20px 30px 30px;
   position: relative;
-}
-@media screen and (min-width: 767.98px) {
-  .steps {
-    padding: 20px 80px 35px 80px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .steps {
-    padding: 20px 150px 35px 150px;
-  }
 }
 .steps_number {
   display: flex;
@@ -232,19 +187,8 @@ header .logo {
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width: 767.98px) {
-  .steps_diff {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-}
 .steps_div {
   width: 100%;
-}
-@media screen and (min-width: 767.98px) {
-  .steps_div {
-    margin: 0 3% 0 2%;
-  }
 }
 .steps .section-title {
   margin-bottom: 0;
@@ -268,32 +212,10 @@ header .logo {
   background-color: #F6F6F6;
   padding: 30px 20px;
 }
-@media screen and (min-width: 767.98px) {
-  .restaurants {
-    padding: 20px 80px 35px 80px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .restaurants {
-    padding: 20px 150px 35px 150px;
-  }
-}
 .restaurants_card {
   display: flex;
   flex-direction: column;
   gap: 30px;
-}
-@media screen and (min-width: 767.98px) {
-  .restaurants_card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px 50px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .restaurants_card {
-    gap: 40px 100px;
-  }
 }
 .restaurants img {
   width: 100%;
@@ -307,30 +229,13 @@ footer {
   background-color: #353535;
   color: white;
 }
-@media screen and (min-width: 767.98px) {
-  footer {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-}
 footer .footer-content {
   padding: 0 0 20px 35px;
-}
-@media screen and (min-width: 767.98px) {
-  footer .footer-content {
-    display: flex;
-    padding-bottom: 0;
-  }
 }
 footer .footer-logo {
   font-family: "Shrikhand", sans-serif;
   padding: 20px 0 20px 35px;
   letter-spacing: 0.5px;
-}
-@media screen and (min-width: 767.98px) {
-  footer .footer-logo {
-    padding: 54px 56px 20px 52px;
-  }
 }
 footer a {
   color: white;
@@ -342,14 +247,89 @@ footer a {
 }
 
 @media screen and (min-width: 767.98px) {
+  .icon_arrow {
+    top: 35px;
+  }
+  header {
+    margin: 25px 0;
+  }
+  header .logo {
+    width: 200px;
+  }
+  .exploration {
+    padding-bottom: 30px;
+  }
+  .exploration h2 {
+    font-size: 40px;
+  }
+  .steps {
+    padding: 20px 80px 35px 80px;
+  }
+  .steps_diff {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .steps_div {
+    margin: 0 3% 0 2%;
+  }
+  .restaurants {
+    padding: 20px 80px 35px 80px;
+  }
+  .restaurants_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 50px;
+  }
+  .card {
+    margin-bottom: 0;
+  }
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  footer .footer-content {
+    display: flex;
+    padding-bottom: 0;
+  }
+  footer .footer-logo {
+    padding: 54px 56px 20px 52px;
+  }
   .list1, .list2 {
     display: flex;
     padding: 60px 29px 25px 0;
   }
-}
-@media screen and (min-width: 767.98px) {
   .list1 p, .list2 p {
     padding-right: 15px;
+  }
+  .image_restaurant {
+    height: 470px;
+  }
+  .menu {
+    margin-right: 80px;
+    margin-left: 80px;
+    padding: 35px 12%;
+  }
+  .menu_title {
+    justify-content: center;
+    gap: 6%;
+  }
+  .menu_end {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .steps {
+    padding: 20px 150px 35px 150px;
+  }
+  .restaurants {
+    padding: 20px 150px 35px 150px;
+  }
+  .restaurants_card {
+    gap: 40px 100px;
+  }
+  .menu {
+    margin-right: 200px;
+    margin-left: 200px;
   }
 }
 

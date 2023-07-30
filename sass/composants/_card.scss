@@ -2,10 +2,6 @@
     @include flexcolumn;
     position: relative;
 
-    @media screen and (min-width: 767.98px) {
-        margin-bottom: 0;
-    }
-
     &_new {
         @include flexrow-allcenter;
         position: relative;
@@ -21,10 +17,6 @@
         margin-top: -30px;
     }
 
-    @media screen and (min-width: 767.98px) {
-        margin-bottom: 0;
-    }
-
     &_content {
         @include flexrow-spaceb;
         width: 100%;
@@ -36,7 +28,6 @@
     }
 
     &_txt {
-
         .card_subtitle {
         font-weight: 300;
         }

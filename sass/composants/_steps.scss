@@ -4,14 +4,6 @@
     padding: 30px 20px 30px 30px;
     position:relative;
 
-    @media screen and (min-width: 767.98px) {
-        padding: 20px 80px 35px 80px;
-    }
-
-    @media screen and (min-width: 1024px) {
-        padding: 20px 150px 35px 150px;
-    }
-
     &_number {
         @include flexrow-contentcenter;
         position: relative;
@@ -25,21 +17,10 @@
 
     &_diff {
         @include flexcolumn;
-
-        @media screen and (min-width: 767.98px) {
-            flex-direction: row;
-            justify-content: space-around;
-            
-        }
     }
 
     &_div {
         width: 100%;
-
-        @media screen and (min-width: 767.98px) {
-            margin: 0 3% 0 2%;
-            
-        } 
     }
 
     .section-title {

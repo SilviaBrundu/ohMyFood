@@ -1,0 +1,113 @@
+@media screen and (min-width: 767.98px) {
+
+    .icon_arrow {
+        top: 35px;
+    }
+
+    header {
+        margin: 25px 0;
+    
+        .logo {
+            width: 200px;  
+        }
+    }
+
+    .exploration {
+        padding-bottom: 30px;
+        
+        h2 {
+            font-size: 40px;     
+        }
+    }
+
+    .steps {
+        padding: 20px 80px 35px 80px;
+        
+        &_diff {    
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    
+        &_div {
+            margin: 0 3% 0 2%;
+        }
+    }
+
+    .restaurants {
+        padding: 20px 80px 35px 80px;
+    
+        &_card {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px 50px;
+        }
+    } 
+
+    .card {
+        margin-bottom: 0;
+    }
+
+    footer {
+        @include flexrow-reverse;
+    
+        .footer-content {
+            display: flex;
+            padding-bottom: 0;
+        }
+    
+        .footer-logo {
+            padding: 54px 56px 20px 52px
+        }
+    }
+    
+    .list1, .list2 {
+        display: flex;
+        padding: 60px 29px 25px 0;   
+        
+        p {
+            padding-right: 15px;
+        }
+    }
+    
+    .image_restaurant {
+        height: 470px;
+    }
+
+    .menu {
+        margin-right:  80px;
+        margin-left: 80px;
+        padding: 35px 12%;
+    
+        &_title {
+            justify-content: center;
+            gap: 6%;
+        }
+    }
+
+    .menu_end {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .steps {
+        padding: 20px 150px 35px 150px;
+    } 
+    
+    .restaurants {
+        padding: 20px 150px 35px 150px;
+    
+        &_card {
+            gap: 40px 100px;
+        }
+    }
+
+    .menu {
+        margin-right:  200px;
+        margin-left: 200px;
+    }
+}

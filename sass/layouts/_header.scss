@@ -2,15 +2,7 @@ header {
     @include flexrow-contentcenter;
     margin: 15px 0;
 
-    @media screen and (min-width: 767.98px) { 
-        margin: 25px 0;
-    }
-
     .logo {
         width: 185px;
-
-        @media screen and (min-width: 767.98px) { 
-            width: 200px;  
-        }
     }
 }

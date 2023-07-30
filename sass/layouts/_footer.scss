@@ -2,27 +2,14 @@ footer {
     background-color: $background-footer;
     color: $txt-footer;
 
-    @media screen and (min-width: 767.98px) {
-    @include flexrow-reverse;
-    }
-
     .footer-content {
         padding: 0 0 20px 35px;
-
-        @media screen and (min-width: 767.98px) {
-            display: flex;
-            padding-bottom: 0;
-        }
     }
 
     .footer-logo {
         font-family: 'Shrikhand', sans-serif;
         padding: 20px 0 20px 35px;
         letter-spacing: 0.5px;
-
-        @media screen and (min-width: 767.98px){
-            padding: 54px 56px 20px 52px
-        }
     }
 
     a {
@@ -34,18 +21,5 @@ footer {
 .list1 {
     p{
         font-weight: 500;
-    }
-}
-
-.list1, .list2 {
-    @media screen and (min-width: 767.98px){
-    display: flex;
-    padding: 60px 29px 25px 0;   
-    }
-    
-    p {
-        @media screen and (min-width: 767.98px) {
-            padding-right: 15px;
-        }
     }
 }
