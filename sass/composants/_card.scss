@@ -9,8 +9,6 @@
         left: 72%;
         background-color: $background-new;
         color: $txt-new;
-        font-weight: 500;
-        font-size: 14px;
         width: 24%;
         height: 29px;
         border-radius: 2px;
@@ -25,12 +23,6 @@
         background-color: $background-cardcontent;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
-    }
-
-    &_txt {
-        .card_subtitle {
-        font-weight: 300;
-        }
     }
 }
 
