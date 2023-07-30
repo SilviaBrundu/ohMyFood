@@ -33,7 +33,7 @@ header {
   justify-content: center;
   margin: 15px 0;
 }
-header .logo {
+header .header_logo {
   width: 185px;
 }
 
@@ -179,10 +179,10 @@ footer {
   background-color: #353535;
   color: white;
 }
-footer .footer-content {
+footer .footer_content {
   padding: 0 0 20px 35px;
 }
-footer .footer-logo {
+footer .footer_logo {
   font-family: "Shrikhand", sans-serif;
   padding: 20px 0 20px 35px;
   letter-spacing: 0.5px;
@@ -203,13 +203,13 @@ footer a {
   header {
     margin: 25px 0;
   }
-  header .logo {
+  header .header_logo {
     width: 200px;
   }
   .exploration {
     padding-bottom: 30px;
   }
-  .exploration h2 {
+  .exploration_title {
     font-size: 40px;
   }
   .steps {
@@ -237,11 +237,11 @@ footer a {
     display: flex;
     flex-direction: row-reverse;
   }
-  footer .footer-content {
+  footer .footer_content {
     display: flex;
     padding-bottom: 0;
   }
-  footer .footer-logo {
+  footer .footer_logo {
     padding: 54px 56px 20px 52px;
   }
   .list1, .list2 {

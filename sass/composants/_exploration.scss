@@ -3,11 +3,11 @@
     padding: 20px 47px 53px 47px;
     background-color: $background-general;
     
-    h2 {
+    &_title {
         text-align: center;
     }
 
-    p {
+    &_txt {
         text-align: center;
         font-size: 18px;
         font-weight: 300;
