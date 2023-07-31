@@ -1,6 +1,5 @@
 body {
     @include flexcolumn;
-    margin: 0;
     width: 100%;
     box-sizing: border-box;
     font-family: $font-family-general;  
@@ -8,12 +7,10 @@ body {
 
 p,
 h3 {
-    margin: 0;
     line-height: 25px;
 }
 
 a {
-    text-decoration: none;
     color: $txt-color;
 }
 

@@ -43,6 +43,7 @@
 
     .menu_txtdiv {
         @include flexrow-spaceb;
+        align-items: center;
     }
 }
 
