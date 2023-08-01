@@ -2,22 +2,25 @@
 /* EXPLORATION */
 
 .exploration_button {
+    @include btn;
     display: flex;
-    background: linear-gradient( #FF79DA -22%,#9356DC);
-    color: $txt-button;
-    border-radius: 55px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-    padding: 15px 27px;
+    transition: opacity 250ms;
+
+    &:hover {
+        opacity: 0.85;
+    }
+    
 }
 
 /* MENU RESTAURANTS */
 
 .menu_button {
     @include flexrow-contentcenter;
+    @include btn;
     width: 130px;
-    background: linear-gradient( #FF79DA -22%,#9356DC);
-    color: $txt-button;
-    border-radius: 55px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-    padding: 15px 27px;
+    transition: opacity 250ms;
+
+    &:hover {
+        opacity: 0.85;
+    }
 }

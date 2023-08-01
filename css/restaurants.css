@@ -4,6 +4,7 @@
 /* ICON COLOR */
 /* BORDER COLOR */
 /* DISPLAY FLEX */
+/* BOUTON */
 body {
   display: flex;
   flex-direction: column;
@@ -38,6 +39,10 @@ a {
   font-weight: 500;
 }
 
+.menu_title1 {
+  font-weight: 400;
+}
+
 .card_subtitle, .exploration_txt, .menu_title2, .menu_txt {
   font-weight: 300;
 }
@@ -70,24 +75,32 @@ header .header_logo {
 
 /* EXPLORATION */
 .exploration_button {
-  display: flex;
   background: linear-gradient(#FF79DA -22%, #9356DC);
   color: white;
   border-radius: 55px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   padding: 15px 27px;
+  display: flex;
+  transition: opacity 250ms;
+}
+.exploration_button:hover {
+  opacity: 0.85;
 }
 
 /* MENU RESTAURANTS */
 .menu_button {
   display: flex;
   justify-content: center;
-  width: 130px;
   background: linear-gradient(#FF79DA -22%, #9356DC);
   color: white;
   border-radius: 55px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   padding: 15px 27px;
+  width: 130px;
+  transition: opacity 250ms;
+}
+.menu_button:hover {
+  opacity: 0.85;
 }
 
 /* ICON HEADER */
@@ -106,15 +119,13 @@ header .header_logo {
 }
 
 /* ICON STEPS */
-.steps_icon1 {
+.steps_icon {
   display: flex;
   align-items: center;
   color: #7E7E7E;
 }
 
-.steps_icon2 {
-  display: flex;
-  align-items: center;
+.steps_icon:hover {
   color: #9356DC;
 }
 
@@ -184,6 +195,11 @@ header .header_logo {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+.menu_content .menu_txtdiv .menu_txt {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .menu_end {

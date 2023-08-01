@@ -16,13 +16,12 @@
 
 /* ICON STEPS */
 
-.steps_icon1 {
+.steps_icon {
     @include flexrow-itemscenter;
-    color: $icon-steps1;
+    color: $icon-steps;
 }
 
-.steps_icon2 {
-    @include flexrow-itemscenter;
+.steps_icon:hover {
     color: $icon-steps2;
 }
 
