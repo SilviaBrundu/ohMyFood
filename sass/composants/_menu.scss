@@ -36,19 +36,23 @@
 }
 
 .menu_content {
+    @include overflow;
     background-color: $background-cardcontent;
     border-radius: 20px;
     box-shadow: 0px 4px 15px 0px #0000001A;
     padding: 12px 15px;
+    width:100%;
+
+    .menu_title3 {
+    @include overflow;
+    }
 
     .menu_txtdiv {
         @include flexrow-spaceb;
         align-items: center;
 
         .menu_txt {
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
+        @include overflow;
         }
     }
 }
@@ -56,5 +60,39 @@
 .menu_end {
     @include flexrow-contentcenter;
     margin: 43px 0 30px 0;
+}
+
+
+
+/* TRANSITION */
+
+article {
+    display: flex;
+
+    .menu_check {
+        @include flexrow-allcenter;
+        visibility: hidden;
+        opacity: 0;
+        width:0;
+        transition-duration: 0.3s;   
+    }
+
+    &:hover {
+        display: flex;
+        flex-direction: row;
+
+        .menu_content {
+            border-radius: 20px 0 0 20px;
+        }
+
+        .menu_check {
+            visibility: visible;
+            opacity: 1;
+            background-color: $background-check;
+            width: 75px;
+            border-radius: 0 20px 20px 0;
+            
+        }
+    }    
 }
 

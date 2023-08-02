@@ -5,6 +5,7 @@
 /* BORDER COLOR */
 /* DISPLAY FLEX */
 /* BOUTON */
+/* CHECK MENU */
 body {
   display: flex;
   flex-direction: column;
@@ -134,6 +135,11 @@ header .header_logo {
   display: flex;
   align-items: center;
   color: #000000;
+}
+
+/* ICON CHECK */
+.icon_check {
+  color: white;
 }
 
 /* ICON FOOTER */

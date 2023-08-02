@@ -5,6 +5,7 @@
 /* BORDER COLOR */
 /* DISPLAY FLEX */
 /* BOUTON */
+/* CHECK MENU */
 body {
   display: flex;
   flex-direction: column;
@@ -136,6 +137,11 @@ header .header_logo {
   color: #000000;
 }
 
+/* ICON CHECK */
+.icon_check {
+  color: white;
+}
+
 /* ICON FOOTER */
 .icon_footer {
   color: white;
@@ -185,10 +191,19 @@ header .header_logo {
 }
 
 .menu_content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   background-color: white;
   border-radius: 20px;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1019607843);
   padding: 12px 15px;
+  width: 100%;
+}
+.menu_content .menu_title3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .menu_content .menu_txtdiv {
   display: flex;
@@ -206,6 +221,34 @@ header .header_logo {
   display: flex;
   justify-content: center;
   margin: 43px 0 30px 0;
+}
+
+/* TRANSITION */
+article {
+  display: flex;
+}
+article .menu_check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  width: 0;
+  transition-duration: 0.3s;
+}
+article:hover {
+  display: flex;
+  flex-direction: row;
+}
+article:hover .menu_content {
+  border-radius: 20px 0 0 20px;
+}
+article:hover .menu_check {
+  visibility: visible;
+  opacity: 1;
+  background-color: #99E2D0;
+  width: 75px;
+  border-radius: 0 20px 20px 0;
 }
 
 footer {
