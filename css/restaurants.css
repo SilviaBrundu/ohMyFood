@@ -188,6 +188,17 @@ header .header_logo {
   width: 40px;
   line-height: 25px;
   margin: 30px 0 0 0;
+  animation: title 4s ease-out backwards;
+}
+@keyframes title {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+  100% {
+    opacity: 1;
+    width: 40px;
+  }
 }
 
 .menu_content {
@@ -199,6 +210,28 @@ header .header_logo {
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1019607843);
   padding: 12px 15px;
   width: 100%;
+  animation: choose 0.8s ease-out backwards;
+}
+@keyframes choose {
+  0% {
+    width: 0;
+    opacity: 0;
+    transform: scale(0);
+  }
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 .menu_content .menu_title3 {
   white-space: nowrap;
@@ -221,6 +254,19 @@ header .header_logo {
   display: flex;
   justify-content: center;
   margin: 43px 0 30px 0;
+}
+
+/* ANIMATION */
+.delay_1 {
+  animation-delay: 0.5s;
+}
+
+.delay_2 {
+  animation-delay: 1s;
+}
+
+.delay_3 {
+  animation-delay: 1.5s;
 }
 
 /* TRANSITION */
