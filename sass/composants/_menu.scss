@@ -73,8 +73,8 @@ article {
         @include flexrow-allcenter;
         visibility: hidden;
         opacity: 0;
-        width:0;
-        transition-duration: 0.3s;   
+        width: 0;
+        transition: all 0.2s ease-out;
     }
 
     &:hover {
@@ -91,7 +91,6 @@ article {
             background-color: $background-check;
             width: 75px;
             border-radius: 0 20px 20px 0;
-            
         }
     }    
 }

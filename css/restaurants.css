@@ -234,7 +234,7 @@ article .menu_check {
   visibility: hidden;
   opacity: 0;
   width: 0;
-  transition-duration: 0.3s;
+  transition: all 0.2s ease-out;
 }
 article:hover {
   display: flex;
