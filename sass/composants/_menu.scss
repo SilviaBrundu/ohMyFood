@@ -13,9 +13,15 @@
         @include flexrow-spaceb;
         font-family: $font-family-title;
         margin-top: 20px;
-            
-        .menu_title1 {
-            margin: 0;
+        
+        .heart_menu {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            height: 3rem;
+            width: 3rem;
+            padding-left: 2.5rem;
+            top: 18px;
         }
     }
 }
@@ -78,7 +84,6 @@
 .menu_article {
 
     display: flex;
-
     animation: choose 0.9s ease-out backwards ;
 
     @keyframes choose {
