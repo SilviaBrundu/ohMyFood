@@ -27,9 +27,33 @@
 
 /* ICON HEART */
 
-.icon_heart {
-    @include flexrow-itemscenter;
-    color: $icon-heart;
+.card_icon {
+    @include flexcolumn-contentcenter;
+
+    .icon_heart {
+        position: absolute;
+        right: 33px;
+        color: $icon-heart;
+    }
+
+    .icon_heart_full {
+        position: absolute;
+        color: transparent;
+        right: 33px;
+        opacity: 0;
+        transition-property: all;
+        transition-duration: 1.5s;
+    }
+
+    .icon_heart_full:hover {
+        
+        opacity: 1;
+        background-image: $background-btn;
+        background-clip: text;
+        -webkit-background-clip: text;
+        
+    
+    }
 }
 
 /* ICON CHECK */
@@ -37,8 +61,6 @@
 .icon_check {
     color: $icon-check;
 }
-
-   
 
 /* ICON FOOTER */
 

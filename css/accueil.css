@@ -36,6 +36,10 @@ a {
   text-decoration: none;
 }
 
+.fa-xl {
+  line-height: normal;
+}
+
 /* FONT WEIGHT*/
 .exploration_button, .menu_button, .card_new, .localisation_txt, .steps_txt, .list1_txt, .menu_title3, .menu_euros {
   font-weight: 500;
@@ -222,10 +226,29 @@ header .header_logo {
 }
 
 /* ICON HEART */
-.icon_heart {
+.card_icon {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.card_icon .icon_heart {
+  position: absolute;
+  right: 33px;
   color: #000000;
+}
+.card_icon .icon_heart_full {
+  position: absolute;
+  color: transparent;
+  right: 33px;
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 1.5s;
+}
+.card_icon .icon_heart_full:hover {
+  opacity: 1;
+  background-image: linear-gradient(#FF79DA -22%, #9356DC);
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 /* ICON CHECK */
