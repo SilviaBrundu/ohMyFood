@@ -15,8 +15,7 @@
         margin-top: 20px;
         
         .heart_menu {
-            display: flex;
-            justify-content: center;
+            @include flexrow-contentcenter;
             position: relative;
             height: 3rem;
             width: 3rem;
@@ -26,11 +25,11 @@
     }
 }
 
-/* MENU CONTENT */
-
 .menu_container {
     @include flexcolumn;
     gap: 12px;
+
+/* ANIMATION TITLE */
 
     .menu_title2 {
         text-transform: uppercase;
@@ -38,22 +37,17 @@
         width: 40px;
         line-height: 25px;
         margin: 30px 0 0 0;
-        animation: title 4s ease-out backwards;
+        animation: title 1s ease-out 2s backwards;        
 
         @keyframes title {
             0% {
                 opacity: 0;
-                width: 0;
-            }
-
-            20% {
-                opacity: 0;
-                width:0;
+                transform: scale(0)
             }
 
             100% {
                 opacity: 1;
-                width:40px;
+                transform: scale(1)
             }    
         }
     }
@@ -80,6 +74,8 @@
         }
     }
 }
+
+/* ANIMATION MENU */
 
 .menu_article {
 
@@ -113,6 +109,8 @@
         }    
     }
 
+/* TRANSITION CHECK */
+
     .menu_check {
         @include flexrow-allcenter;
         visibility: hidden;
@@ -138,6 +136,8 @@
         }
     }    
 }
+
+/* ANIMATION MENU */ 
 
 .delay_1 {
     animation-delay: 0.1s;
