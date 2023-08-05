@@ -89,7 +89,7 @@ header .header_logo {
   height: 100vh;
   inset: 0;
   z-index: 1;
-  background: linear-gradient(#F6F6F6, #FFDEFD);
+  background: linear-gradient(#F6F6F6, #EAEAEA, #FFDEFD);
   animation: disappear 3s linear;
   animation-fill-mode: forwards;
 }
