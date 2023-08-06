@@ -177,11 +177,11 @@ header .header_logo {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   padding: 15px 27px;
   display: flex;
-  transition: opacity 250ms;
+  transition: opacity 1.5s;
 }
 .exploration_button:hover {
   opacity: 0.85;
-  box-shadow: 0 4px 12px rgb(0, 0, 0);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.75);
 }
 
 /* MENU RESTAURANTS */
@@ -194,11 +194,11 @@ header .header_logo {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   padding: 15px 27px;
   width: 130px;
-  transition: opacity 250ms;
+  transition: opacity 0.5s;
 }
 .menu_button:hover {
   opacity: 0.85;
-  box-shadow: 0 4px 12px rgb(0, 0, 0);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.75);
 }
 
 /* ICON HEADER */
