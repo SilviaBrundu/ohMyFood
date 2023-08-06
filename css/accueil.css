@@ -181,6 +181,7 @@ header .header_logo {
 }
 .exploration_button:hover {
   opacity: 0.85;
+  box-shadow: 0 4px 12px rgb(0, 0, 0);
 }
 
 /* MENU RESTAURANTS */
@@ -197,6 +198,7 @@ header .header_logo {
 }
 .menu_button:hover {
   opacity: 0.85;
+  box-shadow: 0 4px 12px rgb(0, 0, 0);
 }
 
 /* ICON HEADER */
