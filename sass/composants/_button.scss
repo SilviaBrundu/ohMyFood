@@ -4,13 +4,12 @@
 .exploration_button {
     @include btn;
     display: flex;
-    transition: opacity 1.5s;
+    transition: opacity 0.5s;
 
     &:hover {
         opacity: 0.85;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.75);
-    }
-    
+    } 
 }
 
 /* MENU RESTAURANTS */

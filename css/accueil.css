@@ -177,7 +177,7 @@ header .header_logo {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   padding: 15px 27px;
   display: flex;
-  transition: opacity 1.5s;
+  transition: opacity 0.5s;
 }
 .exploration_button:hover {
   opacity: 0.85;
@@ -221,10 +221,6 @@ header .header_logo {
   display: flex;
   align-items: center;
   color: #7E7E7E;
-}
-
-.steps_icon:hover {
-  color: #9356DC;
 }
 
 /* ICON HEART */
@@ -359,6 +355,10 @@ header .header_logo {
 }
 .steps_content .steps_txt {
   padding-left: 16px;
+}
+
+.steps_content:hover .steps_icon {
+  color: #9356DC;
 }
 
 .restaurants {
