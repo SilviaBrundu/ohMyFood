@@ -2,7 +2,7 @@
 
 ------------------------------
 
-## Project situation:
+## Project:
 
 ------------------------------
 The objective of the project is to create a 100% mobile website listing menus from gourmet restaurants. Eventually, it will be possible to reserve a table as well as dishes in advance so that they are ready when the customer arrives at the restaurant
