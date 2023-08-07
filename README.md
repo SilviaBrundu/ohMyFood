@@ -1,10 +1,10 @@
 # Oh My Food 
+
 ------------------------------
+
 ## Project situation:
 
 ------------------------------
-### Junior web developer at a young startup that wants to establish itself in the restaurant market
-
 The objective of the project is to create a 100% mobile website listing menus from gourmet restaurants. Eventually, it will be possible to reserve a table as well as dishes in advance so that they are ready when the customer arrives at the restaurant
 
 My role was to create the website by integrating the mobile mockups in HTML and CSS and making the site dynamic with various CSS animations
