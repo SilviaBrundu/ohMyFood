@@ -38,9 +38,9 @@ sass --watch sass/restaurants.scss css/restaurants.css
 ## Built With:
 
 ------------------------------
-Visual Studio Code - Text editor
-Sass - CSS preprocessor
-Font Awesome - Icon library
-Google Font - Font hosting service
-GitHub - Version control tool
-GitHub Pages - Hosting tool
+* Visual Studio Code - Text editor
+* Sass - CSS preprocessor
+* Font Awesome - Icon library
+* Google Font - Font hosting service
+* GitHub - Version control tool
+* GitHub Pages - Hosting tool
